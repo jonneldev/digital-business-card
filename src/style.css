@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Inter;
+
+  
+}
+
+body {
+  display: flex;
+  padding: 44px 117px 44px 116px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  background: #23252C;}
+
+.main_section {
+  background: #1A1B21;
+  
+}
+
+.footer_section {
+  border-radius: 0px 0px 10px 10px;
+  background: #161619;
+}
+
+.profile_photo {
+  width: 317px;
+  height: 317px;
+  flex-shrink: 0;
+  border-radius: 10px 10px 0px 0px;
+  background: url('./components/profile-photo.jpg'), lightgray -207.665px -133.577px / 210.625% 315.631% no-repeat;
+}
+
+.full_name {
+  flex-shrink: 0;
+  color: #FFF;
+  text-align: center;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 20px;
+  
+}
+
+.job_title {
+  flex-shrink: 0;
+  color: #F3BF99;
+  text-align: center;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 6px;
+}
+
+.email {
+  flex-shrink: 0;
+  color: #F5F5F5;
+  text-align: center;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 15.36px */
+  margin-top: 9px;
+}
+
+.contact_button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 9px;
+}
+
+.button_email {
+  width: 115px;
+  padding: 9px 13px 9px 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 6px;
+  border: 1px solid var(--gray-300, #D1D5DB);
+  background: var(--white, #FFF);
+
+  /* shadow/sm */
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+.button_linkedin {
+  width: 115px;
+  padding: 9px 13px 9px 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 6px;
+  background: #5093E2;
+
+  /* shadow/sm */
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+.about {
+  padding-top: 33px;
+  color: #F5F5F5;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 24px */
+}
+
+.about_text {
+  color: #DCDCDC;
+  font-size: 10.24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 15.36px */
+  padding-top: 5px;
+}
+
+.interests {
+  color: #F5F5F5;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 24px */
+  padding-top: 20px;
+}
+
+.interests_text {
+  color: #DCDCDC;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 15.36px */
+  padding-top: 5px;
+  padding-bottom: 24px;
+}
+
+.container_icon {
+  padding-top: 24px;
+  padding: 19px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container, .container_icon {
+  padding-left: 35px;
+  padding-right: 35px;
+}
